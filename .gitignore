@@ -1,0 +1,25 @@
+# large raw inputs (download separately, see README section 1)
+data/TCGA-PRAD.star_fpkm.tsv.gz
+data/TCGA-PRAD.*.tsv.gz
+data/c2.cp.reactome.gmt
+data/HM450_manifest.csv
+data/*_input.csv
+
+# generated figures
+*.png
+*.tiff
+*.pdf
+!docs/*.pdf
+
+# python / R noise
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
